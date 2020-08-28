@@ -1,0 +1,83 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+    background-color: black;
+}
+#container {
+    width: 1590px;
+    height: 755px;
+   background-image:url(bk2.jpg); 
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+   margin: 0 auto;
+}
+#calci{
+    height: 520px;
+    width: 320px;
+    background-color:rgba(197, 28, 28, 0.068);
+    margin: 0 auto;
+    top: 60px;
+    position: relative;
+    border-radius: 5px;
+    
+}
+#result{
+    height: 120px;
+
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 1px;
+    /* padding-bottom: 0px; */
+    font-size: 35px;
+    color: black;
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    padding-top: 10px;
+    font-size: 35px;
+}
+#keybord{
+    height: 400px;
+}
+
+#equal
+{
+    background-color: orangered;
+}
+#clear{
+    background-color: salmon;
+}
+#back
+{
+    background-color: purple;
+}
+
+
+.op , .num {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+.num {
+    background-color:turquoise;
+}
+.num , .op {
+    cursor: pointer;
+}
+.op:active, .num:active{
+    font-size: 25px;
+}
+.op:focus, .num:focus {
+    outline: 0;
+}
